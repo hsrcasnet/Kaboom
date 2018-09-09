@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaboom", "Kaboom\Kaboom.csproj", "{762FFB5C-41BB-4032-8B17-CD04548D71D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaboom.Settings", "Kaboom.Settings\Kaboom.Settings.csproj", "{FB5CA143-961E-4395-9987-C8F28637F003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762FFB5C-41BB-4032-8B17-CD04548D71D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762FFB5C-41BB-4032-8B17-CD04548D71D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762FFB5C-41BB-4032-8B17-CD04548D71D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762FFB5C-41BB-4032-8B17-CD04548D71D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5CA143-961E-4395-9987-C8F28637F003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5CA143-961E-4395-9987-C8F28637F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5CA143-961E-4395-9987-C8F28637F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5CA143-961E-4395-9987-C8F28637F003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2835E7BB-FABF-4612-92CE-9BE5F36116B9}
+	EndGlobalSection
+EndGlobal
