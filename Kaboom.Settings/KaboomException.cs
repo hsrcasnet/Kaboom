@@ -2,7 +2,7 @@
 
 namespace Kaboom.Settings
 {
-    internal class KaboomException : Exception
+    public class KaboomException : Exception
     {
         public KaboomException(string message) : base(message)
         {
