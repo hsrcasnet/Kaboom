@@ -31,6 +31,10 @@ class Program
             // Rethrow the catched exception makes it become 'unhandled'
             // because noone else outside this try-catch is caring about it
             //throw;
+
+            // DEMO: Do not rethrow an exception with "throw e"
+            // since this cuts the stack trace
+            //throw e;
         }
 
         Console.WriteLine();
