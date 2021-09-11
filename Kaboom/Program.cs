@@ -35,6 +35,10 @@ class Program
             // DEMO: Do not rethrow an exception with "throw e"
             // since this cuts the stack trace
             //throw e;
+
+            // DEMO: Wrapping an exception into a new/custom exception type
+            // can be done using using inner exceptions
+            //throw new InvalidOperationException("Something went wrong", e);
         }
 
         Console.WriteLine();
